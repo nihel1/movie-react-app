@@ -1,0 +1,43 @@
+.sboard{
+    width: 100%;
+    padding: 240px 0;
+    display: flex;
+    justify-content: space-between;
+    cursor: default;
+    .box{
+        width: 33%;
+        padding: 30px 40px;
+        background-color: #fff;
+        height: 240px;
+        margin-right: 10px;
+        border-radius: 10px;
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            h3 {
+                font-size: 24px;
+            }
+            nav {
+                font-weight: bold;
+                span {
+                    padding-left: 5px;
+                }
+                .plussp {  
+                    color: #FF4C29;
+                }
+            }
+        }
+        ul{
+            text-align: left;
+            padding-left: 40px;
+            padding-top: 30px;
+            font-size: 15px;
+            li {
+                padding: 10px 0;
+                list-style: square;
+            }
+        }
+    }
+}
+    

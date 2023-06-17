@@ -1,0 +1,79 @@
+.detailtext {
+    padding-top: 80px;
+    .detailtextbox {
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        margin: 120px 0;
+        border-radius: 10px;
+        padding: 30px;
+        .detailTitle {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px 20px 30px;
+            border-bottom: 2px solid #ccc;
+            h2 {
+                font-size: 28px;
+            }
+            div {
+                display: flex;
+                nav {
+                    padding-left: 12px;
+                    span {
+                        padding: 2px;
+                    }
+                }
+            }
+        }
+        .textzone {
+            width: 100%;
+            height: 350px;
+            margin: 20px 0;
+            padding: 20px; 
+            line-height: 1.6;
+            background-color: #eee;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .btn {
+            width: 100%;
+            height: 30px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
+            button {
+                margin-left: 16px;
+                padding: 10px 20px;
+                border-radius: 2px;
+                border: 0;
+                outline: 0;
+                font-family: 'GoyangIlsan', sans-serif;
+                transition: 0.2s;
+            }
+            .btn1 {
+                color: #fff;
+                background-color: #082032;
+                &:hover {
+                    background-color: #FF4C29;
+                    cursor: pointer;
+                }
+            }
+            .btn2 {
+                background-color: #ccc;
+                &:hover {
+                    background-color: #ddd;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    display: flex;
+
+}

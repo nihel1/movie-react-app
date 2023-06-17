@@ -1,0 +1,105 @@
+.move {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 100vh;
+    padding-top: 150px;
+    text-align: center;
+    z-index: 2;
+    .navmenu {
+        width: 100%;
+       li {
+        list-style: none;
+        margin: 50px 0;
+        &:hover .innermenu {
+            display: block;
+        }
+        span {
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            transition: 0.2s;
+            &:hover {
+                font-weight: bold;
+                color: #FF4C29;
+            }
+        }
+        .innermenu {
+            display: none;
+            width: 100%;
+            ul {
+                margin: 30px 0;
+            }
+            li {
+                list-style: none;
+                font-size: 14px;
+                color: #fff;
+                margin: 20px 0;
+                transition: 0.2s;
+                cursor: pointer;
+                &:hover {
+                    color: #FF4C29;
+                }
+            }
+        }
+       }
+    }
+}
+.navBtn {
+    width: 40px;
+    height: 50px;
+    border: 0;
+    border: 1px solid #334756;
+    border-left: none;
+    background-color: black;
+    position: fixed;
+    top: 8.4%;
+    left: 200px;
+    z-index: 2;
+    cursor: pointer;
+    .navicon {
+        font-size: 32px;
+        color: #fff;
+        transition: 0.2s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        &:hover {
+            color: #FF4C29;
+        }
+    }
+}
+// move the menu
+.show_menu {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: 1s;
+}
+.hide_menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 1s;
+}
+// move the button
+.open_btn {
+    position: fixed;
+    top: 8.4%;
+    left: 200px;
+    transition: 1s;
+}
+.close_btn {
+    position: fixed;
+    top: 8.4%;
+    left: 0;
+    transition: 1s;
+}

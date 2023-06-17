@@ -1,0 +1,166 @@
+.commendbox {
+    width: 75%;
+    height: auto;
+    margin: 0 auto 80px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    .titlezone {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #ccc;
+        nav {
+            margin-right: 10px;
+            .infosp {
+                font-size: 12px;
+                color: #999;
+            }
+            .icon {
+                font-size: 18px;
+                vertical-align: middle;
+                margin-left: 10px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+    }
+    .commendzone {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+        .commendtable {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+            thead {
+                height: 35px;
+                border-bottom: 1px solid #082032;
+                background-color: #eee;
+            }
+            tbody {
+                font-size: 14px;
+                tr {
+                    height: 40px;
+                    border-bottom: 1px solid #eee;
+                    .icontd {
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        .deicon {
+                            color: #999;
+                            font-size: 18px;
+                            margin: 0 6px;
+                            transition: 0.2s;
+                        }
+                        .re {
+                            &:hover {
+                                color: #67D5B5;
+                            }
+                        }
+                        .del {
+                            &:hover {
+                                color: #EE7785; 
+                            }
+                        }
+                    }
+                    .icbtn {
+                        button{
+                            width: 50px;
+                            margin-left: 5px;
+                            height: 25px;
+                            border: 0;
+                            outline: 0; 
+                            color: #fff;
+                            background-color: #082032;
+                            font-family: 'GoyangIlsan', sans-serif;
+                            border-radius: 5px;
+                            transition: 0.2s;
+                            &:hover {
+                                background-color: #FF4C29;
+                                cursor: pointer;
+                            }
+                           
+                        }
+                    }
+                }
+            }
+        }
+        .ant-pagination {
+            text-align: center;
+            padding-top: 10px;
+            .ant-pagination-item {
+                border-radius: 50%;
+            }
+            .ant-pagination-item-active {
+                border-color: #FF4C29;
+                a {
+                    color: #FF4C29;
+                }
+            }
+        }
+    }
+    .writezone {
+        h3 {
+            width: 100%;
+            padding: 10px 0;
+            border-bottom: 2px solid #ccc;
+            font-size: 20px;
+        }
+        .writebox {
+            width: 95%;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            .write {
+                form {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    textarea {
+                        border: 0;
+                        outline: 0;
+                        resize: none;
+                        width: 90%;
+                        height: 40px;
+                        padding: 12px;
+                        border-radius: 2px;
+                    }
+                    button {
+                        width: 9%;
+                        height: 35px;
+                        border: 0;
+                        outline: 0; 
+                        color: #fff;
+                        background-color: #082032;
+                        font-family: 'GoyangIlsan', sans-serif;
+                        border-radius: 5px;
+                        transition: 0.2s;
+                        &:hover {
+                            background-color: #FF4C29;
+                            cursor: pointer;
+                        }
+                    }
+                }  
+            }
+        }
+        p {
+            width: 90%;
+            padding-top: 10px;
+            text-align: end;
+            font-size: 14px;
+            .countsp {
+                color: #FF4C29;
+            }
+            span {
+                padding: 0 2px;
+            }
+        }
+    }
+}

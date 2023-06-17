@@ -1,0 +1,56 @@
+.outline{
+    margin-top: 300px;
+    background-color: #fff;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    .editpass {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        h2{
+            margin: 30px 0;
+        }
+        .enter {
+            line-height: 30px;
+            .subtn{
+                font-size: 16px; 
+                padding: 30px 40px 30px 10px;
+                button {
+                    font-family: 'GoyangIlsan', sans-serif;
+                    padding: 10px 20px;
+                    margin: 16px auto;
+                    border: 0;
+                    border-radius: 4px;
+                    color: #fff;
+                    background-color: #082032;
+                    transition: 0.2s;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: #FF4C29;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+.logch {
+    display: block;
+    font-family: 'GoyangIlsan', sans-serif;
+    padding: 10px 20px;
+    margin: 50px auto;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #082032;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover {
+        background-color: #FF4C29;
+    }
+}
+

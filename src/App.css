@@ -1,0 +1,45 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+
+@font-face {
+    font-family: 'GoyangIlsan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GoyangIlsan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'GoyangIlsan', sans-serif;
+    font-size: 16px;
+    background-color: #082032;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.inner {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.inner2 {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* Set the scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+/* Set the scrollbar bar */
+::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,1);
+    /* Set the scroll bar to round */
+    border-radius: 15px;    
+}
+
+/* Set the background behind the scroll bar */
+::-webkit-scrollbar-track{
+    background-color: rgba(255,255,255,0.3);
+}

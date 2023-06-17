@@ -1,0 +1,51 @@
+.reviewlist{
+    background-color: #eee;
+    width: 90%;
+    height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 5px;
+    cursor: default;
+    .reviewbox{
+        width: 100%;
+        height: 240px;
+        display: flex;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 2px;
+        .imgbox {
+            width: 15%;
+            img {
+                width: auto; 
+                height: 200px;  
+                border: 1px solid #ddd; 
+            }
+        }
+        .reviewtext {
+            width: 90%;
+            span {
+                padding: 0 3px;
+            }
+            .titlesp {
+                font-size: 22px;
+                font-weight: bold;
+            }
+            .rev_title {
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 2px solid #FF4C29;
+                .rev_writen {
+                    font-weight: bold;
+                }
+            }
+        }
+        .rev_desc {
+            padding: 10px 3px;
+            line-height: 1.5;
+            font-size: 18px;
+        }
+    }
+}

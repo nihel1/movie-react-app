@@ -1,0 +1,60 @@
+.NewMovie_page {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: default;
+    h2 {
+        padding: 0 0 20px 20px;
+        color: #fff;
+        font-size: 32px;
+    }
+    .NewMovie_box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        color: black;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 60px 10px 0 10px;
+        .NewMovie{
+            display: flex;
+            width: 18%;
+            height: 100%;
+            margin-bottom: 60px;
+            flex-direction: column;
+            margin: 0 13.6px 60px;
+            .NewMovie_img_div{
+                text-align: center;
+            }
+            .NewMovie_img{
+                width: 100%;
+                height: 350px;
+                border: 1px solid #eee; 
+                border-radius: 2px;
+            }
+            .NewMovie_desc {
+                padding: 10px;
+                background-color: #eee;
+                border-radius: 0 0 5px 5px;
+                .NewMovie_score {
+                    span {
+                        padding-left: 5px;
+                        &:nth-child(2) {
+                            color: #FF4C29;
+                        }
+                    }   
+                }
+            }
+        }
+    }
+    .NewMovie_box2 {
+        height: 500px;
+        background-color: #fff;
+        border-radius: 10px;
+        p {
+            font-size: 24px;
+            margin: 24px;
+        }
+    }
+}

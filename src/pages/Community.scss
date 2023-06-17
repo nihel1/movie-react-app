@@ -1,0 +1,83 @@
+.everyboard {
+    padding-top: 80px;
+    cursor: default;
+    .boardbox {
+        width: 100%;
+        height: auto;
+        margin: 100px 0;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 30px;
+        h2 {
+            padding-bottom: 30px;
+            font-size: 28px;
+        }
+        .freetable {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 10px; 
+            border-collapse: collapse;
+            thead {
+                background-color: #eee;
+                tr {
+                    font-size: 18px;
+                    height: 50px;
+                    th {
+                        border-bottom: 1px solid #FF4C29;
+                    }
+                }  
+            }
+            tbody {
+                tr {
+                    height: 50px;
+                    td {
+                        border-bottom: 1px solid #eee;
+                        span {
+                            &:hover {
+                                font-weight: bold;
+                            }
+                        }
+                    } 
+                }
+            }
+        }
+        .nav {
+            width: 95%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            div {
+                text-align: center;
+                .writebtn {
+                    padding: 10px 18px;
+                    border: 0;
+                    outline: 0;
+                    border-radius: 2px;
+                    font-family: 'GoyangIlsan', sans-serif;
+                    color: #fff;
+                    background-color: #082032;
+                    transition: 0.2s;
+                    &:hover {
+                        background-color: #FF4C29;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ant-pagination {
+    text-align: center;
+    padding-top: 10px;
+    .ant-pagination-item {
+        border-radius: 50%;
+    }
+    .ant-pagination-item-active {
+        border-color: #FF4C29;
+        a {
+            color: #FF4C29;
+        }
+    }
+}
